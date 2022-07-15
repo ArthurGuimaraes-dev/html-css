@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Fontes Externas</title>
+    <Style>
+        @font-face{
+            font-family: 'pascoa' ;
+            src: url('fonts/Smile\ Rabbit\ ttf.ttf' ) format('truetype') , 
+            url('fonts/Smile\ Rabbit\ otf.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de Format ():
+            -opentype(otf)
+            -truetype(ttf)
+            -embedded - opentype
+            -truetype - aat (Apple Advanced Typography)
+            -svg           */
+        }
+            
+        
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    h1,h2{
+        font-family: 'pascoa', Times, serif;
+        font-size: 3em;
+        font-weight: normal;
+    }
+    
+    </Style>
+</head>
+<body>
+    <h1>Pascoa</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt accusamus ducimus esse sunt repellendus, provident voluptatem libero sed corporis rem laudantium quidem, harum, tempora repellat officiis nihil soluta ab pariatur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit alias sapiente quo inventore incidunt rem facilis veniam officiis cupiditate beatae, odit dignissimos magni commodi, impedit sint est ipsa quaerat mollitia.</p>
+    <h2>Subtitulo pascoa</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, tempora? Minima, accusamus enim. Beatae, nostrum sapiente voluptate quas velit quasi iste iure accusamus corporis animi repellendus, vitae illum blanditiis consequuntur.</p>
+    
+</body>
+</html>
